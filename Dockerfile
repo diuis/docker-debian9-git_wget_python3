@@ -1,4 +1,4 @@
-FROM diuis/docker-debian9-git_wget:v1.0.2
+FROM diuis/docker-debian9-git_wget:v1.0.4
 
 RUN apt-get update && apt-get install --no-install-recommends -y python3.5-minimal python3-pip && \
     apt-get autoremove && apt-get clean && \
